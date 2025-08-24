@@ -10,7 +10,7 @@ app.use(express.json());
 
 // Configure CORS to allow requests from your Vercel frontend
 app.use(cors({
-  origin: 'https://your-frontend.vercel.app', // replace with your actual Vercel URL
+  origin: 'https://portfolio-alpha-seven-38.vercel.app/', // replace with your actual Vercel URL
   methods: ['GET', 'POST'],
 }));
 
