@@ -77,7 +77,7 @@ app.post('/send-message', async (req, res) => {
     console.log('Attempting to send email...');
     
     // Configure Nodemailer transporter with better error handling
-    const transporter = nodemailer.createTransporter({
+    const transporter = nodemailer.createTransport({
       service: 'gmail',
       auth: {
         user: process.env.EMAIL_USER,
